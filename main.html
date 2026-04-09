@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="RU">
+    <head>
+        <title>Main</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <img src="img/image.png" alt="ichkannfleigen abernichtdu nichtdagengendu" hidden>
+        <div class="welcome">
+            <a href="#">
+                <img class="quick-menu-button" id="logout-button" src="img/logout.svg" alt="logout">
+            </a>
+            <a href="#">
+                <img class="quick-menu-button" id="account-button" src="img/account_circle.svg" alt="account-button">
+            </a>
+            <a href="#">
+                <img class="quick-menu-button" id="settings-button" src="img/settings.svg" alt="settings">
+            </a>
+
+            <h1>Добрый день,</h1>
+            <h3>Вы самый лучший врач!</h3>
+        </div>
+
+        <div>
+            <table id="patient-table">
+                <caption id="patient-caption">Текущий пациент</caption>
+                <tbody>
+                    <tr>
+                        <td><b>ФИО:</b></td>
+                        <td>Райзер Веган Суперлайтович</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Дата рождения:</b></td>
+                        <td>01.01.2000</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Полис МС:</b></td>
+                        <td>asdfasdjfajdfajfg</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>СНИЛС:</b></td>
+                        <td>181 566 789-322</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Телефон:</b></td>
+                        <td>+73488881616</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="huge-round-button" id="record-btn" type="button" onclick="window.location.href='recording.html'">
+                Начать распознование диалога
+                <img class="button-image" id="start-button" src="img/microphone-duo.svg" alt="start recording">
+            </button>
+            <button class="huge-round-button" id="refresh-btn" type="button" onclick="window.location.href='#'">
+                Обновить данные пациента
+                <img class="button-image" id="refresh-button" src="img/refresh.svg" alt="refresh">
+            </button>
+
+        </div>
+    </body>
+</html>

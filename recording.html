@@ -6,6 +6,27 @@
     </head>
 
     <body>
-        <img src="img/image.png" alt="ichkannfleigen abernichtdu nichtdagengendu">
+        <div id="chat-area">
+            <div class="chat-message" id="chat-msg-l">
+                <p>А: Здравствуйте, меня зовут Так-то, по какому поводу обратилисб?</p>
+            </div>
+
+            <div class="chat-message" id="chat-msg-r">
+                <p>Б: Здравствуйте, я когда вот так делаю, у меня вот тут хрустит и короче</p>
+            </div>
+        </div>
+
+        <div id="recording-controls">
+            <div id="recording-wavegram">
+                <img id="wavegram" src="img/wavegram.png" alt="наверное, это сложно будет добавлять, но выглядит прикольно">
+                <img class="wavegram-btn" src="img/mic.svg" alt="start recording">
+            </div>
+
+            <button class="huge-round-button" id="stop-record-btn" type="button" onclick="window.location.href='editing.html'">
+                Закончить запись диалога
+                <img class="button-image"  src="img/stop.svg" alt="stop recording">
+            </button>
+        </div>
     </body>
+
 </html>

@@ -4,6 +4,18 @@
   font-style: normal;
 }
 
+.marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin-inline: 50pt;
+    margin-top: 20pt;
+    height: max-content;
+}
+
 #logo {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif, system-ui;
     font-size: 72pt;
@@ -35,6 +47,169 @@
 
     color: dimgray;
     
-
-
 }
+
+.welcome {
+    font-family: "Marck Script", cursive;
+    font-style: normal;
+    font-size: x-large;
+    line-height: 0.5;
+}
+
+.quick-menu-button {
+    display: block;
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin-left: 10pt;
+    filter: brightness(0);
+    
+}
+
+#patient-table {
+    border-radius: 12pt;
+    border-spacing: 0;
+    border-collapse: separate; /* Required for border-radius to work */
+    border: 1px solid lightgray;
+    overflow: hidden; /* Ensures corners are clipped properly */
+    width: 777pt;
+
+    height: auto;
+}
+
+td {
+    border: 1px solid lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    line-height: 1.5;
+    
+}
+
+#patient-caption {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-top: 80pt;
+    margin-bottom: 10pt;
+}
+
+
+.patient-info {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.huge-round-button {
+    border-radius: 30px;
+    border: 0;
+    background-color: blueviolet;
+    padding-inline: 15pt;
+    padding-block: 7pt;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: white;   
+}
+
+.button-image {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    filter:brightness(255);
+}
+
+
+#record-btn {
+    /*position: absolute;
+    left: 70%;
+    top: 85%;*/
+    margin-top: 90pt;
+    margin-right: 10%;
+    margin-left: 15pt;
+    float:right;
+    width: 270pt;
+}
+
+#refresh-btn {
+    /*position: absolute;
+    left: 50%;
+    top: 85%;*/
+    margin-top: 90pt;
+    float: right;
+    width: 270pt;
+}
+
+/*recording.html*/
+
+#recording-wavegram {
+    height: auto;
+    width: 500pt;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 7pt;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+    left: 50%;                    
+    transform: translateX(-50%);
+}
+
+#wavegram {
+    flex: 1; 
+    text-align: center; 
+}
+
+#wavegram-btn {
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+#stop-record-btn {
+    font-size: 9pt;
+    position: absolute;
+    display: flex;
+    top: 90%;
+    left: 75%;
+    margin-inline: 15pt;
+    padding-block: 3pt;
+    padding-inline: 7pt;
+}
+
+#chat-area {
+    width: 700pt;
+    margin-inline: auto;
+    margin-block: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-message {
+    background-color: gainsboro;
+    border-radius: 30pt;
+    padding-inline: 10px;
+    padding-block: 2px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+#chat-msg-l {
+    float:left;
+    margin-bottom: 140pt;
+}
+
+#chat-msg-r {
+    float: right;
+}
+
+
