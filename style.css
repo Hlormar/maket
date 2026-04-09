@@ -56,6 +56,8 @@ body {
     line-height: 0.5;
 }
 
+h3.welcome {}
+
 .quick-menu-button {
     display: block;
     float: right;
@@ -210,6 +212,94 @@ td {
 
 #chat-msg-r {
     float: right;
+}
+
+.chat-keywords {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    margin-right: 10pt;
+    position: absolute;
+    top:30%;
+    left: 10pt;
+    width: 200pt;
+}
+
+.chat-keywords-list  {
+    border-radius: 10pt;
+    background-color: gainsboro;
+    list-style-position: inside;
+    padding-inline: 6pt;
+    padding-block: 2pt;
+    width: fit-content;
+}
+
+ul.chat-keywords-list {
+    padding-left: 0pt;
+}
+
+.devblog {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: yellow;
+    padding: 3pt;
+}
+
+#recordingMSG.devblog {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    width: 180pt;
+}
+
+/*editing*/
+.editing-title {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.5;
+}
+
+#editing-form {
+    margin-top: 50pt;
+    margin-right: 5pt;
+    border-radius: 10pt;
+    padding-inline: 7pt;
+    padding-block: 3pt;
+    width: 75%;
+    height: 550pt;
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#send-btn {
+    float: right;
+    margin-top: 35pt;
+    margin-right: 25%;
+}
+
+/*send confirm*/
+
+#sendconfirmMSG.devblog {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    max-width: 180pt;
+}
+
+.confirmation-dialog {
+    border-radius: 15px;
+    /*border: 1px solid lightgray;*/
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 300pt;
+    padding-inline: 15pt;
+    padding-block: 10pt;
+    margin-inline: auto;
+}
+
+#confirmation-dialog-btn {
+    position: relative;
+    left: 80%;
 }
 
 
